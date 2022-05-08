@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A12858E52827E86B00897C39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12858E42827E86B00897C39 /* AppDelegate.swift */; };
+		A12858E72827E86B00897C39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12858E62827E86B00897C39 /* SceneDelegate.swift */; };
+		A12858E92827E86B00897C39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12858E82827E86B00897C39 /* ViewController.swift */; };
+		A12858EC2827E86B00897C39 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12858EA2827E86B00897C39 /* Main.storyboard */; };
+		A12858EE2827E86C00897C39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A12858ED2827E86C00897C39 /* Assets.xcassets */; };
+		A12858F12827E86C00897C39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A12858EF2827E86C00897C39 /* LaunchScreen.storyboard */; };
+		A12858FC2827E86C00897C39 /* SnapzCamTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12858FB2827E86C00897C39 /* SnapzCamTests.swift */; };
+		A12859062827E86C00897C39 /* SnapzCamUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12859052827E86C00897C39 /* SnapzCamUITests.swift */; };
+		A12859082827E86C00897C39 /* SnapzCamUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A12859072827E86C00897C39 /* SnapzCamUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A12858F82827E86C00897C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12858D92827E86B00897C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12858E02827E86B00897C39;
+			remoteInfo = SnapzCam;
+		};
+		A12859022827E86C00897C39 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A12858D92827E86B00897C39 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A12858E02827E86B00897C39;
+			remoteInfo = SnapzCam;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A12858E12827E86B00897C39 /* SnapzCam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SnapzCam.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12858E42827E86B00897C39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A12858E62827E86B00897C39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A12858E82827E86B00897C39 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A12858EB2827E86B00897C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A12858ED2827E86C00897C39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A12858F02827E86C00897C39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A12858F22827E86C00897C39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A12858F72827E86C00897C39 /* SnapzCamTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapzCamTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12858FB2827E86C00897C39 /* SnapzCamTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapzCamTests.swift; sourceTree = "<group>"; };
+		A12859012827E86C00897C39 /* SnapzCamUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SnapzCamUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A12859052827E86C00897C39 /* SnapzCamUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapzCamUITests.swift; sourceTree = "<group>"; };
+		A12859072827E86C00897C39 /* SnapzCamUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnapzCamUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A12858DE2827E86B00897C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858F42827E86C00897C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858FE2827E86C00897C39 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A12858D82827E86B00897C39 = {
+			isa = PBXGroup;
+			children = (
+				A12858E32827E86B00897C39 /* SnapzCam */,
+				A12858FA2827E86C00897C39 /* SnapzCamTests */,
+				A12859042827E86C00897C39 /* SnapzCamUITests */,
+				A12858E22827E86B00897C39 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A12858E22827E86B00897C39 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A12858E12827E86B00897C39 /* SnapzCam.app */,
+				A12858F72827E86C00897C39 /* SnapzCamTests.xctest */,
+				A12859012827E86C00897C39 /* SnapzCamUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A12858E32827E86B00897C39 /* SnapzCam */ = {
+			isa = PBXGroup;
+			children = (
+				A12858E42827E86B00897C39 /* AppDelegate.swift */,
+				A12858E62827E86B00897C39 /* SceneDelegate.swift */,
+				A12858E82827E86B00897C39 /* ViewController.swift */,
+				A12858EA2827E86B00897C39 /* Main.storyboard */,
+				A12858ED2827E86C00897C39 /* Assets.xcassets */,
+				A12858EF2827E86C00897C39 /* LaunchScreen.storyboard */,
+				A12858F22827E86C00897C39 /* Info.plist */,
+			);
+			path = SnapzCam;
+			sourceTree = "<group>";
+		};
+		A12858FA2827E86C00897C39 /* SnapzCamTests */ = {
+			isa = PBXGroup;
+			children = (
+				A12858FB2827E86C00897C39 /* SnapzCamTests.swift */,
+			);
+			path = SnapzCamTests;
+			sourceTree = "<group>";
+		};
+		A12859042827E86C00897C39 /* SnapzCamUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A12859052827E86C00897C39 /* SnapzCamUITests.swift */,
+				A12859072827E86C00897C39 /* SnapzCamUITestsLaunchTests.swift */,
+			);
+			path = SnapzCamUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A12858E02827E86B00897C39 /* SnapzCam */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A128590B2827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCam" */;
+			buildPhases = (
+				A12858DD2827E86B00897C39 /* Sources */,
+				A12858DE2827E86B00897C39 /* Frameworks */,
+				A12858DF2827E86B00897C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SnapzCam;
+			productName = SnapzCam;
+			productReference = A12858E12827E86B00897C39 /* SnapzCam.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A12858F62827E86C00897C39 /* SnapzCamTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A128590E2827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCamTests" */;
+			buildPhases = (
+				A12858F32827E86C00897C39 /* Sources */,
+				A12858F42827E86C00897C39 /* Frameworks */,
+				A12858F52827E86C00897C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12858F92827E86C00897C39 /* PBXTargetDependency */,
+			);
+			name = SnapzCamTests;
+			productName = SnapzCamTests;
+			productReference = A12858F72827E86C00897C39 /* SnapzCamTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A12859002827E86C00897C39 /* SnapzCamUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A12859112827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCamUITests" */;
+			buildPhases = (
+				A12858FD2827E86C00897C39 /* Sources */,
+				A12858FE2827E86C00897C39 /* Frameworks */,
+				A12858FF2827E86C00897C39 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A12859032827E86C00897C39 /* PBXTargetDependency */,
+			);
+			name = SnapzCamUITests;
+			productName = SnapzCamUITests;
+			productReference = A12859012827E86C00897C39 /* SnapzCamUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A12858D92827E86B00897C39 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1330;
+				TargetAttributes = {
+					A12858E02827E86B00897C39 = {
+						CreatedOnToolsVersion = 13.3.1;
+					};
+					A12858F62827E86C00897C39 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A12858E02827E86B00897C39;
+					};
+					A12859002827E86C00897C39 = {
+						CreatedOnToolsVersion = 13.3.1;
+						TestTargetID = A12858E02827E86B00897C39;
+					};
+				};
+			};
+			buildConfigurationList = A12858DC2827E86B00897C39 /* Build configuration list for PBXProject "SnapzCam" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A12858D82827E86B00897C39;
+			productRefGroup = A12858E22827E86B00897C39 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A12858E02827E86B00897C39 /* SnapzCam */,
+				A12858F62827E86C00897C39 /* SnapzCamTests */,
+				A12859002827E86C00897C39 /* SnapzCamUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A12858DF2827E86B00897C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12858F12827E86C00897C39 /* LaunchScreen.storyboard in Resources */,
+				A12858EE2827E86C00897C39 /* Assets.xcassets in Resources */,
+				A12858EC2827E86B00897C39 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858F52827E86C00897C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858FF2827E86C00897C39 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A12858DD2827E86B00897C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12858E92827E86B00897C39 /* ViewController.swift in Sources */,
+				A12858E52827E86B00897C39 /* AppDelegate.swift in Sources */,
+				A12858E72827E86B00897C39 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858F32827E86C00897C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12858FC2827E86C00897C39 /* SnapzCamTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A12858FD2827E86C00897C39 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A12859082827E86C00897C39 /* SnapzCamUITestsLaunchTests.swift in Sources */,
+				A12859062827E86C00897C39 /* SnapzCamUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A12858F92827E86C00897C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12858E02827E86B00897C39 /* SnapzCam */;
+			targetProxy = A12858F82827E86C00897C39 /* PBXContainerItemProxy */;
+		};
+		A12859032827E86C00897C39 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A12858E02827E86B00897C39 /* SnapzCam */;
+			targetProxy = A12859022827E86C00897C39 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A12858EA2827E86B00897C39 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12858EB2827E86B00897C39 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A12858EF2827E86C00897C39 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A12858F02827E86C00897C39 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A12859092827E86C00897C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A128590A2827E86C00897C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A128590C2827E86C00897C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapzCam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A128590D2827E86C00897C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SnapzCam/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCam;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A128590F2827E86C00897C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapzCam.app/SnapzCam";
+			};
+			name = Debug;
+		};
+		A12859102827E86C00897C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCamTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SnapzCam.app/SnapzCam";
+			};
+			name = Release;
+		};
+		A12859122827E86C00897C39 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapzCam;
+			};
+			name = Debug;
+		};
+		A12859132827E86C00897C39 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = FS7489W6UG;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = axelpulgar.SnapzCamUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SnapzCam;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A12858DC2827E86B00897C39 /* Build configuration list for PBXProject "SnapzCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12859092827E86C00897C39 /* Debug */,
+				A128590A2827E86C00897C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A128590B2827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCam" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A128590C2827E86C00897C39 /* Debug */,
+				A128590D2827E86C00897C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A128590E2827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCamTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A128590F2827E86C00897C39 /* Debug */,
+				A12859102827E86C00897C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A12859112827E86C00897C39 /* Build configuration list for PBXNativeTarget "SnapzCamUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A12859122827E86C00897C39 /* Debug */,
+				A12859132827E86C00897C39 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A12858D92827E86B00897C39 /* Project object */;
+}
